@@ -1,5 +1,6 @@
 # Aleo-service
 
+```
 ./target/debug/authorize-service --network mainnet 
 ./target/debug/execute-service --network mainnet
 
@@ -8,6 +9,8 @@ Broadcast request succeeded with status: 200 OK
 Broadcast request response body: "at1wyavvu8evr0fwpmvj8zharg7myz28r3hd24p4fgk9n0ctszqqupsfl4t6h"
 
 https://aleo.info/transaction/at1wyavvu8evr0fwpmvj8zharg7myz28r3hd24p4fgk9n0ctszqqupsfl4t6h
+
+```
 
 ## credits.aleo transfer_public
 
@@ -25,4 +28,5 @@ program_id: ProgramID::from_str("credits.aleo")?,
 function_name: Identifier::from_str("transfer_public")?,
 
 let base_fee_in_microcredits = U64::new(75_000);
+```
 
